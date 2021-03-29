@@ -1,0 +1,126 @@
+/* Global Style ***********************************************************************************/
+body{
+  margin: 0;
+  background: #212121;
+}
+
+#main {
+  color: #ef233c;
+  font-family: 'VT323', monospace;
+  max-width: 550px;
+  margin: auto;
+}
+
+h1 {
+    margin: 5px;
+    color: #d1f5ff;
+    font-size: 80px;
+    text-align: center;
+}
+
+@media screen and (max-width: 380px) {
+  H1 {
+    font-size: 40px;
+  }
+}
+
+h2 {
+    margin: 5px;
+    color: #d1f5ff;
+    font-size: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 380px) {
+  H2 {
+    font-size: 20px;
+  }
+}
+
+p {
+  margin: 5px;
+  text-algin: center;
+}
+
+}
+a {
+  color: #ffd500;
+}
+/* TITLE SECTION************************************************************************************/
+
+/*404*/
+
+/* IMAGE SECTION************************************************************************************/
+figcaption {
+  color: #ffd500;
+  padding: 0 0 10px;
+
+
+}
+figure {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+}
+
+img {
+    width: 200px;
+    max-width: 85%;
+
+}
+
+#img-div {
+  background: #006d77;
+  margin: 15px;
+  border-radius: 15px;
+  border: 1px #ffd500 dashed;
+  animation: blink 1s;
+  animation-iteration-count: 99;
+}
+@keyframes blink { 50% { border-color:#fff ; }  }
+
+/* DESCRIPTION SECTION***********************************************************************************/
+
+.container {
+  color: #d1f5ff;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+}
+a:link {
+  display: inline-block;
+  color: #ffd500;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 25px;
+  background: #006d77;
+  margin: 12px;
+  border: 1px #ffd500 dashed;
+  animation: blink 1s;
+  animation-iteration-count: 99;
+}
+@keyframes blink { 50% { border-color:#fff ; }  }
+
+}
+a:visited {
+    color: #ffd500;
+}
+
+a {
+  color: #ffd500;
+}
+
+a:hover {
+    background: #073b4c;
+}
